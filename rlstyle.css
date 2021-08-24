@@ -1,0 +1,160 @@
+
+
+
+body {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    text-align:center;
+    margin: 0;
+    font-family: Georgia;
+  
+  }
+  
+  
+  .topnav {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       text-align: left;
+       background-color: #923cb5;
+       background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+       font-size: 25px;
+       text-decoration: none;
+       position:relative ;
+       padding: 5px 16px;
+       display: flex;
+       align-items: center;
+       justify-content:space-between;
+     }
+	 
+  .topnav a {
+       color: #fec84e;
+       float:right;
+       text-decoration: none;
+       font-size: 25px;
+     }
+     
+     .marque{
+      background:orange;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+     }
+  
+  form {
+    width: 30%;
+    margin: 60px auto;
+    border-radius:90px;
+   
+    padding: 50px 90px 60px 90px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  }
+  label {
+    display: block;
+    background: #fec84e;
+    background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+    border-radius:65px;
+    position: relative;
+    margin: 40px 0px;
+  }
+  
+  
+  .label-txt {
+    position: absolute;
+    top: -1.6em;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: .8em;
+    letter-spacing: 1px;
+    color: rgb(120,120,120);
+    transition: ease .3s;
+  }
+  
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .line-box {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #BCBCBC;
+  }
+  
+  .line {
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #8BC34A;
+    transition: ease .6s;
+  } 
+  
+  .input:focus + .line-box .line {
+    width: 100%;
+  }
+  
+  .label-active {
+    top: -3em;
+  }
+  
+  button{
+    text-align:center;
+    border-radius:65px;
+    background-color: #ffc857;
+    background-image: linear-gradient(316deg, #ffc857 0%, #3e2f5b 74%);
+    padding:10px;
+    width:150px;
+    height:60px;
+    color:white;
+    border-style:solid;
+    border-color:Cyan;
+    font-family:Georgia;
+  }
+  
+  button:hover {
+    background: #8BC34A;
+    color: #ffffff;
+  }
+  
+  h1{
+    text-align:center;
+    border-radius:65px;
+    background: #fec84e;
+    background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+    padding:30px;
+    width:500px;
+    height:210px;
+    color:DarkBlue;
+    border-style:solid;
+    border-color:Cyan;
+    font-family:Georgia;
+  }
+
+  h2{
+    text-align:center;
+    border-radius:65px;
+    background: #fec84e;
+    background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+    padding:30px;
+    width:500px;
+    height:110px;
+    color:DarkBlue;
+    border-style:solid;
+    border-color:Cyan;
+    font-family:Georgia;
+  }
+
+  h3{
+    text-align:center;
+    font-family:Georgia;
+    color:black;
+  }
+
+  
